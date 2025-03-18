@@ -1,0 +1,479 @@
+@media (min-width: 0px) and (max-width: 500px) {
+    nav {
+        width: 100%;
+        height: 60px;
+        padding: 0 20px;
+        z-index: 5;
+        border: none;
+    }
+
+    nav .logo {
+        width: 50px;
+        height: 100%;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 35px;
+        left: -100%;
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+        display: block;
+        padding: 20px;
+        background: #f7f7f7;
+        opacity: 0;
+        transition: 0.6s;
+/*        background-color: red*/
+    }
+
+    nav .logo span {
+        font-size: 30px;
+    }
+
+    nav ul i {
+        position: relative;
+        width: 40px;
+        height: 40px;
+    }
+
+    nav ul li {
+        font-size: 13px;
+        margin: 10px 0;
+    }
+
+    nav .holder {
+        display: none;
+    }
+
+    .menu-control {
+        position: relative;
+        display: block;
+        width: 40px;
+        height: 100%;
+    }
+
+    .menu-control i {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 100%;
+        align-content: center;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .menu-control i:last-child {
+        display: none;
+        
+    }
+
+    /*////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////*/
+
+    .heading{
+        height: 500px;
+    }
+    
+    .heading .col {
+        position: relative;
+        width: 50%;
+        height: 600px;
+    }
+
+    .heading .col:first-child {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .heading .col:last-child {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+    }
+
+    .heading .col .hold {
+        width: 100%;
+        top: 65%;
+        display: block;
+        margin-left: 0px;
+        align-content: center;
+        height: auto;
+    }
+
+    .heading .col .hold .left {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .heading .col .hold .left span {
+        width: 100%;
+        text-align: center;
+        height: auto;
+        font-size: 90px;
+        margin-top: 0px;
+        /*        color: #ff8c61;*/
+    }
+
+    .heading .col .hold .right {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .heading .col .hold .right h1 {
+        position: relative;
+        width: auto;
+        height: auto;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 0px;
+        /*        color: #ff8c61;*/
+    }
+
+    .heading .col .hold .right p {
+        position: relative;
+        bottom: 10px;
+        font-size: 18px;
+        margin-top: 0px;
+        font-weight: 600;
+        text-align: center;
+        color: #9b5a42;
+    }
+
+    .heading .col img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: top;
+    }
+    
+    .action{
+        width: 100%;
+        height: auto;
+    }
+    
+    .action p{
+        font-size: 15px;
+    }
+    
+    .action h1{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .action .container{
+        width: 100%;
+        display: block;
+        margin-top: 0px;
+        
+    }
+    
+    .action .container .box{
+        width: 100%;
+        height: auto
+    }
+    
+    .action .container .box span{
+        font-size: 70px;
+    }
+    
+    .action .container .box h1{
+        font-size: 20px;
+    }
+    
+    .action .container .box p{
+        font-size: 15px;
+    }
+    
+    .heroslide{
+        width: 100%;
+        height: 400px;
+    }
+    
+    .heroslide .watch{
+        width: 200px;
+        height: 100px;
+/*        background-color: red;*/
+    }
+    
+    .heroslide .watch span{
+        font-size: 50px;
+        margin-top: 15px;
+    }
+    
+    .heroslide .watch p{
+        font-size: 15px
+    }
+    
+    .articles{
+        width: 100%;
+            
+    }
+    
+    .articles .top{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    
+    .articles .top h1{
+        font-size: 17px;
+    }
+    
+    .articles .top p{
+        font-size: 12px;
+        height: 25px;
+        margin-top: -2px;
+    }
+    
+    .articles .writeup{
+        width: 100%;
+        display: block;
+    }
+    
+    .articles .writeup .column{
+        width: 100%;
+        margin-bottom: -60px;
+    }
+    
+    .articles .writeup .column .image-holder{
+        height: 300px;
+    }
+    
+    .articles .writeup .column h1{
+        font-size: 20px;
+    }
+    
+    .articles .writeup .column p{
+        font-size: 15px;
+    }
+    
+    .bg{
+        width: 100%;
+        margin-top: -20px;
+        height: 600px;
+    }
+    
+    .signup{
+        width: 200px;
+        height: 270px;
+        margin-top: -60px;
+    }
+    
+    .signup p{
+        font-size: 15px;
+    }
+    
+    .signup h1{
+        font-size: 19px;
+            
+    }
+    
+    .signup button{
+        width: 90px;
+        font-size: 12px;
+        height: 30px;
+    }
+    
+    .faq{
+        width: 100%;
+    }
+    
+    .faq h1{
+        font-size: 28px;
+    }
+    
+    .faq h2{
+        font-size: 15px;
+    }
+    
+    .faq .question{
+        
+        width: 90%;
+        height: 45px;
+    
+       
+    }
+    
+    .faq .question h3 {
+        font-size: 13px;
+    }
+    
+    .faq .question span{
+        font-size: 15px;
+    }
+    
+    .faq .question .answer{
+        font-size: 10px;
+    }
+    
+    footer{
+        width: 100%;
+        display: block;
+        padding: 0px 0px;
+        margin-top: -150px;
+        
+    }
+    
+    footer .col{
+        width: 100%
+    }
+    
+    footer .col:first-child .logo-box{
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding: 0px 20px
+    }
+    
+    footer .col:first-child{
+/*        background-color: red;*/
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+    
+    footer .col:nth-child(2){
+/*        background-color: red;*/
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    
+    footer .col:nth-child(2) h1{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 0;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    footer .col:nth-child(2) li{
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 0;
+        margin-bottom: 5px;
+    }
+    
+    footer .col:nth-child(3){
+/*        background-color: red;*/
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    
+    footer .col:nth-child(3) h1{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 0;
+        margin-bottom: 10px;
+    }
+    
+    footer .col:nth-child(3) li{
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 0;
+        margin-bottom: 5px;
+    }
+    
+    footer .col:nth-child(4){
+/*        background-color: red;*/
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    
+    footer .col:nth-child(4) h1{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 0;
+        margin-bottom: 10px;
+    }
+    
+    footer .col:nth-child(4) li{
+         font-size: 13px;
+        text-align: center;
+        margin-bottom: 0;
+        margin-bottom: 5px;
+    }
+    
+    footer .col:last-child{
+/*        background-color: red;*/
+        padding: 0;
+        margin-bottom: 5px;
+        margin-bottom: 30px;
+    }
+    
+    footer .col:last-child h1{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 0;
+        margin-bottom: 10px;
+    }
+    
+    footer .col:last-child li{
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 0;
+        margin-bottom: 5px;
+    }
+    
+    .ending{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    
+    .social-icons{
+/*        background-color: red;*/
+        width: 200px;
+        margin-top: 10px;
+    }
+    
+    .ending p {
+        font-size: 12px;
+    }
+    
+    .ending p:last-child{
+        font-size: 10px;
+    }
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
